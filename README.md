@@ -9,4 +9,4 @@ Below are some few details about the App details - :
 -Used Shimmer to make the UI friendly for the User.
 -Used Tailwind CSS for designing and styling the UI.
 -Used React Router for routing.
--Used Redux Toolkit for state management.
+-Used Redux Toolkit for state management,
