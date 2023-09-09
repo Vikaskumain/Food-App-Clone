@@ -12,8 +12,8 @@ import { useEffect, useState } from "react";
 const Title = () => (
   <div className="flex items-center">
     <Link to="/">
-      <h2 className="text-xl font-bold text-gray-500 mx-2">
-        Hunger<span className="text-orange-600">Head</span>
+      <h2 className="text-2xl font-bold text-gray-500 mx-2 py-2">
+        THE<span className="text-orange-600">GIRLL</span>
       </h2>
     </Link>
 

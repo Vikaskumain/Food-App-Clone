@@ -7,7 +7,7 @@
     "build": "parcel build index.html",
     "test": "jest"
   },
-  "author": "Deepak",
+  "author": "Vikas kumain",
   "license": "ISC",
   "dependencies": {
     "@headlessui/react": "^1.7.15",
