@@ -10,6 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addItem, removeItem } from "../utils/cartSlice";
 import { Link } from "react-router-dom";
 import {BsFillCartFill} from "react-icons/bs";
+import { info } from "autoprefixer";
 
 const RestaurantDetails = () => {
   const { resId } = useParams();
@@ -28,7 +29,7 @@ const RestaurantDetails = () => {
     aggregatedDiscountInfo,
     costForTwoMessage,
     totalRatingsString,
-  } = restaurantInfo;
+  } = restaurantInfo?.info;
 
   const descriptionList = aggregatedDiscountInfo?.descriptionList || [];
 
